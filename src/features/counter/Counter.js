@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
+
 function Counter() {
   // read from the Redux store
   const items = useSelector((state) => state.items);
